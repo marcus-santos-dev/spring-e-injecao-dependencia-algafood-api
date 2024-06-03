@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "notificador.email",
+      "type": "br.com.mrdev.algafood.di.notificacao.propriedades.customizadas.NotificadorProperties",
+      "sourceType": "br.com.mrdev.algafood.di.notificacao.propriedades.customizadas.NotificadorProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "notificador.email.host-servidor",
+      "type": "java.lang.String",
+      "sourceType": "br.com.mrdev.algafood.di.notificacao.propriedades.customizadas.NotificadorProperties"
+    },
+    {
+      "name": "notificador.email.porta-servidor",
+      "type": "java.lang.Integer",
+      "sourceType": "br.com.mrdev.algafood.di.notificacao.propriedades.customizadas.NotificadorProperties"
+    }
+  ],
+  "hints": []
+}

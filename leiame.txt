@@ -1,0 +1,33 @@
+Criando um projeto Spring Boot com Spring Initializr
+Criando um controller no Spring MVC @Controller
+Restart mais rápido com DevTools
+Conhecendo o Ioc Container do Spring
+Definindo beans com @Component
+Injetando dependências (beans spring)
+Usando @Configuration e @Bean para definir beans
+Conhecendo os pontos de injeção e a anotação @Autowired
+Dependencia opcional com @Autowired
+Ambiguidade de beans e injeção de lista de beans : private List<Notificador> notificador = new ArrayList<>();
+Desambiguação de beans com @Primary
+Desambiguação de beans com @Qualifier
+Desambiguação de beans com anotação customizada
+Mudando comportamento da aplicacao com Spring Profiles
+	-> Spring Profiles é uma forma de separar componentes da aplicação que serão disponibilizados em
+	-> certos ambientes
+Criando métodos de callback do ciclo de vida dos beans
+Publicando e consumindo eventos customizados
+Configurando projetos Spring Boot com o application.properties
+	-> Caso precise alterar algum atributo da aplicacao a documentação está no link abaixo
+		-> https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html
+			-> Por exemplo [server.port=8080]
+Susbstituindo propriedades via linha de comando e variaveis de ambiente
+	Via linha de comando
+		-> java -jar target/algafood-api-0.0.1-SNAPSHOT.jar --server.port=8081
+	Via variavel de ambiente
+		->	export SERVER_PORT=8082
+			echo $SERVER_PORT
+			
+Criando e acessando propriedades customizadas com @Value
+Acessando propriedades com @ConfigurationProperties
+Alterando a configuração do projeto dependendo do ambiente (com Spring Profiles)
+Ativando o  Spring Profiles por linha de comando e variavel de ambiente.
